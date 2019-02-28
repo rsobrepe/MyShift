@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="app.ray.com.myshift.beginActivity">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="122dp"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/anton"
+        android:text="My Shift"
+        android:textColor="@android:color/holo_red_dark"
+        android:textSize="24sp"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="16dp" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="19dp"
+        android:fontFamily="@font/anton"
+        android:text="Start Shift Time:"
+        android:textColor="@android:color/holo_red_dark"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="89dp" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/anton"
+        android:text="End Shift Time:"
+        android:textColor="@android:color/holo_red_dark"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="129dp" />
+
+    <TextClock
+        android:id="@+id/clckStart"
+        android:layout_width="126dp"
+        android:layout_height="34dp"
+        android:format12Hour="hh:mm:ss a"
+        android:textColor="@android:color/background_dark"
+        tools:layout_editor_absoluteX="129dp"
+        tools:layout_editor_absoluteY="74dp" />
+
+    <TextClock
+        android:id="@+id/clckEnd"
+        android:layout_width="126dp"
+        android:layout_height="34dp"
+        android:format12Hour="hh:mm:ss a"
+        android:textColor="@android:color/black"
+        tools:layout_editor_absoluteX="129dp"
+        tools:layout_editor_absoluteY="114dp" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="99dp"
+        android:layout_height="30dp"
+        android:fontFamily="@font/anton"
+        android:text="Time Worked"
+        android:textSize="18sp"
+        tools:layout_editor_absoluteX="143dp"
+        tools:layout_editor_absoluteY="167dp" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="92dp"
+        android:layout_height="36dp"
+        android:fontFamily="monospace"
+        android:text="00:00"
+        android:textSize="30sp"
+        tools:layout_editor_absoluteX="146dp"
+        tools:layout_editor_absoluteY="208dp" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@android:color/holo_green_light"
+        android:fontFamily="@font/anton"
+        android:text="Start"
+        tools:layout_editor_absoluteX="148dp"
+        tools:layout_editor_absoluteY="252dp" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@android:color/holo_orange_dark"
+        android:fontFamily="@font/anton"
+        android:text="Pause"
+        tools:layout_editor_absoluteX="148dp"
+        tools:layout_editor_absoluteY="313dp" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@android:color/holo_red_dark"
+        android:fontFamily="@font/anton"
+        android:text="Stop"
+        tools:layout_editor_absoluteX="148dp"
+        tools:layout_editor_absoluteY="376dp" />
+
+    <TextView
+        android:id="@+id/lblDate"
+        android:layout_width="221dp"
+        android:layout_height="42dp"
+        android:fontFamily="@font/anton"
+        android:text="Today's Date"
+        android:textColor="@android:color/holo_red_dark"
+        android:textSize="24sp"
+        tools:layout_editor_absoluteX="147dp"
+        tools:layout_editor_absoluteY="15dp" />
+
+</android.support.constraint.ConstraintLayout>
